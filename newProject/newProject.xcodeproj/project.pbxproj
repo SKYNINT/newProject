@@ -10,6 +10,7 @@
 		337A1F451EADEAD10098DB5E /* StaticTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 337A1F441EADEAD10098DB5E /* StaticTest.a */; };
 		337A1F5D1EADF06C0098DB5E /* imageBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 337A1F5C1EADF06C0098DB5E /* imageBundle.bundle */; };
 		337A1F901EAE08220098DB5E /* TestFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337A1F8F1EAE08220098DB5E /* TestFrameWork.framework */; };
+		337A1FBB1EB09B010098DB5E /* pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 337A1FBA1EB09B010098DB5E /* pods.m */; };
 		33D5BAC31E9B940600D53DA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D5BAC21E9B940600D53DA9 /* main.m */; };
 		33D5BAC61E9B940600D53DA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D5BAC51E9B940600D53DA9 /* AppDelegate.m */; };
 		33D5BAC91E9B940600D53DA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D5BAC81E9B940600D53DA9 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 		337A1F441EADEAD10098DB5E /* StaticTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = StaticTest.a; sourceTree = "<group>"; };
 		337A1F5C1EADF06C0098DB5E /* imageBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = imageBundle.bundle; sourceTree = "<group>"; };
 		337A1F8F1EAE08220098DB5E /* TestFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestFrameWork.framework; sourceTree = "<group>"; };
+		337A1FB91EB09B010098DB5E /* pods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pods.h; sourceTree = "<group>"; };
+		337A1FBA1EB09B010098DB5E /* pods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pods.m; sourceTree = "<group>"; };
 		33D5BABE1E9B940600D53DA9 /* newProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D5BAC21E9B940600D53DA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33D5BAC41E9B940600D53DA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,9 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337A1FB81EB09AF00098DB5E /* pods */ = {
+			isa = PBXGroup;
+			children = (
+				337A1FB91EB09B010098DB5E /* pods.h */,
+				337A1FBA1EB09B010098DB5E /* pods.m */,
+			);
+			path = pods;
+			sourceTree = "<group>";
+		};
 		33D5BAB51E9B940600D53DA9 = {
 			isa = PBXGroup;
 			children = (
+				337A1FB81EB09AF00098DB5E /* pods */,
 				337A1F8F1EAE08220098DB5E /* TestFrameWork.framework */,
 				337A1F441EADEAD10098DB5E /* StaticTest.a */,
 				337A1F2E1EADE9300098DB5E /* StaticTest.h */,
@@ -291,6 +304,7 @@
 				33D5BAC91E9B940600D53DA9 /* ViewController.m in Sources */,
 				33D5BAC61E9B940600D53DA9 /* AppDelegate.m in Sources */,
 				33D5BAC31E9B940600D53DA9 /* main.m in Sources */,
+				337A1FBB1EB09B010098DB5E /* pods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
